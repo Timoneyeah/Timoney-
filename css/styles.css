@@ -1,0 +1,105 @@
+.header .form-control{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+}
+
+.header form .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+
+.navbar-toggler span:first-child{
+    display: none;
+}
+
+.navbar-toggler.collapsed span:last-child{
+    display: block;
+}
+.navbar-toggler.collapsed span:first-child{
+    display: block;
+}
+
+.navbar-toggler.collapsed span:last-child{
+    display: none;
+}
+
+.nav-item.dropdown a img{
+    width: 30px;
+}
+
+.fa-apple:hover{
+    color: lawngreen;
+}
+
+.fa-heart:hover{
+    color:red;
+}
+
+.fa-thumbs-up:hover{
+    color: blueviolet;
+}
+
+footer{
+    margin-top: 50px;
+    width: 100%;
+    background: #212529;
+    height: 200px;
+}
+
+footer p{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 60px;
+    font-family: 'Rubik Beastly';
+}
+
+
+
+select{
+    background: none;
+    color: gray;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+li option{
+    background-image: url("../images/Flag_of_Russia.svg.png");
+}
+
+
+.pagination{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 25px;
+   
+  
+}
+.icons{
+    display: flex;
+    justify-content: center;
+}
+.fa-instagram{
+    font-size: 40px;
+    color: rgb(248, 17, 132);
+    margin-right: 20px;
+    
+}
+
+.fa-telegram{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 20px;
+    color: rgb(5, 231, 99);
+    cursor: pointer;
+}
+
+.fa-facebook{
+    color: rgb(8, 106, 252);
+    font-size: 40px;
+}
